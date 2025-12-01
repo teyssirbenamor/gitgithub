@@ -1,29 +1,9 @@
 package com.example.gitgithub;
 
 public class file1 {
-    private String message = "Hello, GitHub!";
-    public String getMessage() {
-        return message;
-    }
-    
-}
-public class file1 {
-    private String message = "Hello, GitHub!";
+    private String message = "Bonjour GitHub! - Version Feature";
     private String author = "Mohamed Yassine Derbel";
-
-    public String getMessage() {
-        return message;
-    }
+    private String description = "Formation Git";  // DIFFÉRENT
     
-    public void setMessage(String message) {
-        this.message = message;
-    }
-    
-    public String getAuthor() {
-        return author;
-    }
-    
-    public void setAuthor(String author) {
-        this.author = author;
-    }
+    // ... rest du code
 }
